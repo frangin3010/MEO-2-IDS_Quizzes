@@ -293,6 +293,295 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 
         //Module 02
+'M02': {
+    title: 'MEO2-M02 : Politiques, Marketing et Commercialisation de l\'innovation',
+    questions: [
+        {
+            section: "Chapitre 1 : Politiques publiques de soutien et de financement",
+            question: "Selon l'OCDE, comment l'innovation est-elle définie ?",
+            options: { a: "Comme une simple découverte scientifique", b: "Comme la mise en œuvre d'un produit, service, procédé, ou méthode, nouveau ou sensiblement amélioré", c: "Comme le processus de recherche fondamentale uniquement", d: "Comme l'achat de nouvelles technologies" },
+            reponse: "b",
+            explication: "L'OCDE définit l'innovation comme la mise en œuvre d'un produit (bien ou service), d'un processus, d'une méthode de commercialisation ou d'une méthode organisationnelle, nouveau ou sensiblement amélioré.",
+            page: "7"
+        },
+        {
+            question: "Quelle est la différence fondamentale entre une invention et une innovation ?",
+            options: { a: "L'invention est le fait de l'entrepreneur, l'innovation est le fait du chercheur", b: "Il n'y a aucune différence, les deux termes sont synonymes", c: "L'invention est la solution technique, l'innovation est son application réussie sur le marché", d: "L'invention concerne les produits, l'innovation concerne les services" },
+            reponse: "c",
+            explication: "L'innovation est l'application réussie d'une invention dans le domaine économique. L'invention est une condition nécessaire mais pas suffisante pour l'innovation.",
+            page: "8"
+        },
+        {
+            question: "Parmi les trois branches de la R&D, laquelle consiste en des travaux pour acquérir des connaissances sans perspective d'application directe ?",
+            options: { a: "La recherche appliquée", b: "Le développement expérimental", c: "La recherche fondamentale", d: "La recherche-action" },
+            reponse: "c",
+            explication: "La recherche fondamentale consiste en des travaux entrepris en vue d'acquérir de nouvelles connaissances indépendamment des perspectives d'application.",
+            page: "8"
+        },
+        {
+            question: "Quel est l'un des enjeux majeurs de l'innovation pour une entreprise dans un marché concurrentiel ?",
+            options: { a: "Réduire le nombre d'employés", b: "Augmenter les prix de tous ses produits", c: "Se différencier et créer un avantage concurrentiel", d: "Maintenir des méthodes de production traditionnelles" },
+            reponse: "c",
+            explication: "L'innovation permet à l'entreprise de se différencier par rapport à la concurrence, d'obtenir des performances supérieures et d'anticiper les besoins des consommateurs.",
+            page: "9"
+        },
+        {
+            question: "L'innovation de produit concerne :",
+            options: { a: "La mise en place d'un nouveau processus de production", b: "La conception d'un bien matériel ou d'un service nouveau ou sensiblement amélioré", c: "Un changement dans l'organisation du lieu de travail", d: "Une nouvelle méthode de conditionnement" },
+            reponse: "b",
+            explication: "L'innovation de produit concerne la conception d'un bien matériel ou d'un service, qui soit nouveau ou sensiblement amélioré sur le plan technologique ou de l'usage.",
+            page: "11"
+        },
+        {
+            question: "Une innovation qui vise à réduire les délais et les coûts de production en modifiant la manière de produire est une innovation de :",
+            options: { a: "Produit", b: "Commercialisation", c: "Organisation", d: "Procédé" },
+            reponse: "d",
+            explication: "L'innovation de procédé a trait à la mise en place d'un processus de production ou de distribution nouvelle ou améliorée, avec pour effet la réduction des délais et des coûts.",
+            page: "11"
+        },
+        {
+            question: "L'introduction de changements dans la présentation d'un produit ou le mode de commercialisation est une innovation de :",
+            options: { a: "Procédé", b: "Commercialisation (ou marketing)", c: "Produit", d: "Organisation" },
+            reponse: "b",
+            explication: "L'innovation de commercialisation a pour but d'améliorer les ventes par des changements dans la présentation, le conditionnement ou la promotion du produit.",
+            page: "11"
+        },
+        {
+            question: "Comment appelle-t-on une innovation qui consiste en une modification profonde occasionnant une transformation des méthodes de production ?",
+            options: { a: "Innovation incrémentale", b: "Innovation d'adaptation", c: "Innovation majeure ou radicale", d: "Innovation d'assemblage" },
+            reponse: "c",
+            explication: "Les innovations majeures consistent à une modification profonde dans l'évolution de procédés ou des produits, créant de nouveaux marchés ou modifiant les comportements.",
+            page: "12"
+        },
+        {
+            question: "Les perfectionnements apportés aux produits existants pour améliorer la qualité ou la productivité sont des innovations de type :",
+            options: { a: "Radical", b: "Majeure", c: "Incrémentale ou mineure", d: "De rupture" },
+            reponse: "c",
+            explication: "Les innovations incrémentales constituent des perfectionnements apportés aux produits ou procédés existants. Elles ne bouleversent pas les conditions d'usage.",
+            page: "12"
+        },
+        {
+            question: "Quel est l'un des outils de politique publique pour encourager la R&D privée ?",
+            options: { a: "L'augmentation des impôts sur les sociétés", b: "La mise en place de subventions ou de dispositifs fiscaux comme le crédit d'impôt", c: "La limitation des brevets", d: "L'interdiction de la coopération entre entreprises" },
+            reponse: "b",
+            explication: "Le tableau des politiques publiques mentionne 'Subvention, dispositifs fiscaux (crédit d'impôt, aide fiscale)' pour encourager la R&D privée.",
+            page: "13"
+        },
+        {
+            question: "La création de pôles de compétitivité est une politique publique visant à :",
+            options: { a: "Soutenir la croissance des entreprises individuellement", b: "Augmenter les bénéfices de la recherche publique", c: "Renforcer la coopération et les partenariats entre acteurs (privés et publics)", d: "Encourager uniquement les startups" },
+            reponse: "c",
+            explication: "Les politiques de 'Renforcer la coopération et les partenariats' incluent la 'Création de pôles de compétitivité'.",
+            page: "14"
+        },
+        {
+            section: "Chapitre 2: Marketing de l'innovation",
+            question: "Laquelle de ces étapes fait partie du cycle commercial d'un produit innovant ?",
+            options: { a: "La distribution de dividendes", b: "L'étude de marché", c: "Le rapport annuel", d: "L'audit comptable" },
+            reponse: "b",
+            explication: "Le cycle commercial d'un produit innovant comporte plusieurs étapes, dont l'étude de marché, la stratégie marketing, la planification commerciale, etc.",
+            page: "15"
+        },
+        {
+            question: "Quel est l'objectif du 'marketing mix' dans une stratégie d'innovation ?",
+            options: { a: "Définir la structure hiérarchique de l'entreprise", b: "Savoir placer ou positionner les produits sur le(s) marché(s)", c: "Calculer la rentabilité du projet", d: "Protéger l'innovation par un brevet" },
+            reponse: "b",
+            explication: "Il s'agit de définir la composition commerciale (marketing mix) qui va consister à savoir placer ou positionner les produits sur le(s) marché(s).",
+            page: "16"
+        },
+        {
+            question: "Quels éléments, relevant du droit d'auteur, sont systématiquement présents dans la documentation publicitaire ?",
+            options: { a: "Des secrets d'affaires", b: "Des formules mathématiques", c: "Des expressions d'idées et de concepts qui constituent des 'œuvres originales'", d: "Des données brutes non protégées" },
+            reponse: "c",
+            explication: "La documentation publicitaire contient presque systématiquement des expressions d'idées et de concepts qui constituent des « œuvres originales » qui relèvent du droit d'auteur.",
+            page: "16"
+        },
+        {
+            question: "Lequel de ces coûts n'est PAS directement lié à la protection de la propriété intellectuelle d'une innovation ?",
+            options: { a: "Les coûts d'acquisition et de conservation des droits", b: "Les coûts de production des matières premières", c: "Les coûts liés à la surveillance de la propriété intellectuelle", d: "Les coûts liés au respect des droits de PI" },
+            reponse: "b",
+            explication: "Pour évaluer les coûts de la protection, il faut prendre en compte les coûts de création, acquisition, conservation, surveillance et respect des droits de PI.",
+            page: "17"
+        },
+        {
+            question: "Avant de lancer un produit sur le marché, de quoi l'entreprise doit-elle être certaine ?",
+            options: { a: "D'avoir l'accord de tous ses concurrents", b: "D'être titulaire de tous les droits de propriété intellectuelle attachés au produit", c: "D'avoir réalisé un bénéfice l'année précédente", d: "Que le produit est parfait et n'aura jamais besoin d'amélioration" },
+            reponse: "b",
+            explication: "L'entreprise responsable du lancement doit être certaine d'être titulaire de tous les droits de propriété intellectuelle attachés à son produit, ou avoir dûment acquis ces droits.",
+            page: "17"
+        },
+        {
+            question: "Les slogans et les motifs sonores publicitaires peuvent être protégés par :",
+            options: { a: "Uniquement le droit des brevets", b: "Uniquement le secret d'affaires", c: "Le droit d'auteur ou le droit des marques", d: "Uniquement le droit des dessins et modèles" },
+            reponse: "c",
+            explication: "Les slogans et les motifs sonores publicitaires peuvent être protégés par le droit d'auteur ou par le droit des marques.",
+            page: "18"
+        },
+        {
+            question: "Pour avertir le public de la protection par droit d'auteur, quelle mention peut-on apposer ?",
+            options: { a: "Le symbole ™", b: "Le symbole ®", c: "Le mot 'Copyright' ou le symbole ©", d: "Le mot 'Breveté'" },
+            reponse: "c",
+            explication: "On peut avertir le public en apposant une mention de réserve du droit d'auteur par le mot 'Copyright' ou ©.",
+            page: "19"
+        },
+        {
+            question: "Parmi les actes proscrits en matière de publicité, on trouve :",
+            options: { a: "L'utilisation d'éléments créatifs originaux", b: "La comparaison objective avec un concurrent", c: "L'utilisation d'œuvres de tiers sans l'autorisation de leur propriétaire", d: "La protection de sa marque par le symbole ®" },
+            reponse: "c",
+            explication: "Utiliser des éléments d'autrui et surtout protégés sans l'autorisation de leur propriétaire ou titulaire de droit peut être lourd de conséquences.",
+            page: "20"
+        },
+        {
+            question: "Dans la phase de conception de l'idée, que peut faire une entreprise pour trouver des idées innovantes ?",
+            options: { a: "Ignorer ses clients et fournisseurs", b: "Mettre en place un système de veille et d'écoute de son environnement", c: "Copier exactement les produits des concurrents", d: "Se concentrer uniquement sur ses processus internes" },
+            reponse: "b",
+            explication: "Pour s'informer et trouver des idées, l'entreprise doit être à l'écoute de son environnement : veille, écoute des clients, surveillance des technologies, etc.",
+            page: "21"
+        },
+        {
+            question: "Lors de la phase d'évaluation, que permet la vérification de la liberté d'exploitation ?",
+            options: { a: "De savoir si l'idée est rentable", b: "De s'assurer que l'innovation ne viole pas les droits de propriété intellectuelle de tiers", c: "De définir la stratégie marketing", d: "De tester le prototype" },
+            reponse: "b",
+            explication: "La validation de l'idée passe par la vérification de l'originalité et de la liberté d'exploitation, pour s'assurer de ne pas être en contrefaçon.",
+            page: "22"
+        },
+        {
+            question: "À quoi sert principalement le 'business plan' dans la phase de développement d'une innovation ?",
+            options: { a: "C'est un document purement technique pour les ingénieurs", b: "C'est un support pour que les partenaires financiers et techniques apprécient la qualité du projet", c: "C'est un manuel d'utilisation pour le client final", d: "C'est un rapport annuel pour les actionnaires" },
+            reponse: "b",
+            explication: "Le plan de développement ou business plan est un support indispensable sur lequel les partenaires financiers et techniques se baseront pour apprécier la qualité et le sérieux du projet.",
+            page: "22"
+        },
+        {
+            question: "De quoi dépend principalement la pérennité d'une innovation, en plus de son positionnement sur le marché ?",
+            options: { a: "Du prix de lancement le plus bas possible", b: "De l'absence totale de communication", c: "De la capacité de l'entreprise à anticiper les évolutions (veille technologique)", d: "De la complexité du produit" },
+            reponse: "c",
+            explication: "La pérennité de l'innovation dépend de son positionnement mais aussi de la capacité de l'entreprise à anticiper toute évolution sur le plan technique, concurrentiel et commercial.",
+            page: "23"
+        },
+        {
+            section: "Chapitre 3: Diffusion et commercialisation",
+            question: "La valorisation 'externe' d'une innovation consiste à :",
+            options: { a: "Utiliser l'innovation uniquement pour soi-même", b: "Lutter contre la contrefaçon", c: "Autoriser l'utilisation de l'innovation par des tiers moyennant des royalties", d: "Communiquer sur son patrimoine intellectuel" },
+            reponse: "c",
+            explication: "La valorisation « externe » consiste à autoriser l'utilisation de votre innovation par d'autres personnes physiques ou morales moyennant des royalties.",
+            page: "24"
+        },
+        {
+            question: "Quel processus vise à ajouter de la valeur aux résultats de recherche pour les transformer en produits ou services commercialisables ?",
+            options: { a: "Le transfert", b: "La commercialisation", c: "La valorisation", d: "La publication" },
+            reponse: "c",
+            explication: "La valorisation peut être définie comme un processus qui vise à ajouter de la valeur aux résultats de recherche... en vue de les transformer en des produits, procédés, services utilisables ou commercialisables.",
+            page: "25"
+        },
+        {
+            question: "Comment se nomme le mouvement de transmission de connaissances et de savoir-faire entre des unités de recherche et le secteur privé ?",
+            options: { a: "La valorisation", b: "Le transfert", c: "La commercialisation", d: "La cession" },
+            reponse: "b",
+            explication: "Le transfert est perçu comme un mouvement de transmission et de réception des connaissances et de savoir-faire entre partenaires.",
+            page: "25"
+        },
+        {
+            question: "La mise sur le marché d'une innovation sous forme de produit, procédé ou service est la définition de :",
+            options: { a: "La valorisation", b: "Le transfert", c: "La commercialisation", d: "La licence" },
+            reponse: "c",
+            explication: "La commercialisation est la mise sur le marché par une entreprise sous forme de produit, procédé, service d'une innovation issue de l'exploitation commerciale des droits.",
+            page: "25"
+        },
+        {
+            question: "Qu'est-ce qu'un contrat de cession d'un droit de propriété industrielle ?",
+            options: { a: "Un contrat de location du droit", b: "Un acte juridique qui transfère la propriété du droit à un tiers", c: "Un accord de non-divulgation", d: "Un contrat de travail pour l'inventeur" },
+            reponse: "b",
+            explication: "Le contrat de cession est un acte juridique par lequel le ou les titulaires d'un droit (Cédant) transfèrent la propriété de celui-ci à une ou plusieurs personnes (Cessionnaires).",
+            page: "26"
+        },
+        {
+            question: "Dans un contrat de cession, qui a l'obligation de payer les annuités pour maintenir un brevet en vigueur après la cession ?",
+            options: { a: "Le Cédant (le vendeur)", b: "Le Cessionnaire (l'acheteur)", c: "Les deux parties à parts égales", d: "L'office des brevets" },
+            reponse: "b",
+            explication: "Le contrat de cession est un transfert de propriété. Il revient donc au Cessionnaire d'assurer le maintien en vigueur du brevet en s'acquittant des taxes.",
+            page: "27"
+        },
+        {
+            question: "Un contrat par lequel le titulaire d'un brevet concède à un tiers la jouissance de son droit, sans en transférer la propriété, est un contrat de :",
+            options: { a: "Cession", b: "Vente", c: "Licence", d: "Travail" },
+            reponse: "c",
+            explication: "Contrairement à la cession, la licence ne comporte pas transfert de propriété du titre, le licencié n'en reçoit que la jouissance. Elle s'apparente à la location.",
+            page: "27"
+        },
+        {
+            question: "Une licence est dite 'exclusive' si le titulaire :",
+            options: { a: "Se réserve le droit d'exploiter lui-même le titre", b: "Peut accorder d'autres licences à d'autres entreprises", c: "S'interdit de concéder d'autres licences du même titre à d'autres concessionnaires", d: "Ne reçoit aucune rémunération" },
+            reponse: "c",
+            explication: "Elle est exclusive si le titulaire s'interdit de concéder d'autres licences du même titre à d'autres concessionnaires.",
+            page: "28"
+        },
+        {
+            question: "En règle générale, un licencié peut-il accorder des sous-licences ?",
+            options: { a: "Oui, toujours", b: "Oui, mais seulement s'il en informe le concédant", c: "Non, sauf stipulations contraires dans le contrat", d: "Non, c'est formellement interdit par la loi" },
+            reponse: "c",
+            explication: "Sauf stipulations contraires du contrat, la licence n'est pas cessible aux tiers et le licencié n'est pas autorisé à accorder des sous-licences.",
+            page: "28"
+        },
+        {
+            question: "Qu'est-ce qu'un contrat d'édition ?",
+            options: { a: "Un contrat où l'auteur paie l'éditeur pour être publié", b: "Un contrat où l'auteur cède à un éditeur le droit de fabriquer et de diffuser son œuvre", c: "Un contrat de vente de livres entre un éditeur et une librairie", d: "Un contrat de représentation théâtrale" },
+            reponse: "b",
+            explication: "Le contrat d'édition est un contrat par lequel l'auteur... cède à des conditions déterminées à une personne appelée éditeur le droit de fabriquer... l'œuvre à charge pour elle d'en assurer la publication et la diffusion.",
+            page: "29"
+        },
+        {
+            question: "Dans un contrat 'à compte d'auteur', qui paie l'éditeur pour la fabrication et la diffusion de l'œuvre ?",
+            options: { a: "L'éditeur prend tous les frais à sa charge", b: "Les frais sont partagés entre l'auteur et l'éditeur", c: "L'auteur ou ses ayants droit versent une rémunération à l'éditeur", d: "L'État subventionne la totalité des coûts" },
+            reponse: "c",
+            explication: "Le contrat dit à compte d'auteur est un acte écrit par lequel l'auteur ou ses ayants droit verse à l'éditeur une rémunération convenue...",
+            page: "29"
+        },
+        {
+            question: "Dans un contrat d'édition, l'éditeur a-t-il le droit d'apporter des modifications à l'œuvre sans l'accord de l'auteur ?",
+            options: { a: "Oui, il a une liberté totale", b: "Non, il est tenu de respecter le droit moral de l'auteur et ne peut pas modifier l'œuvre sans son autorisation écrite", c: "Oui, mais seulement pour corriger les fautes d'orthographe", d: "Non, sauf si le livre ne se vend pas bien" },
+            reponse: "b",
+            explication: "L'éditeur est tenu de respecter le droit moral de l'auteur. A ce titre, il ne peut pas sans autorisation écrite de l'auteur apporter des modifications sur l'œuvre.",
+            page: "30"
+        },
+        {
+            question: "Comment se nomme le contrat qui autorise une personne (un entrepreneur de spectacles) à représenter une œuvre de l'esprit ?",
+            options: { a: "Contrat d'édition", b: "Contrat de représentation", c: "Contrat de production audiovisuelle", d: "Contrat de licence de marque" },
+            reponse: "b",
+            explication: "C'est un acte par lequel l'auteur d'une œuvre de l'esprit ou ses ayants droit autorise une personne physique ou morale à représenter ladite œuvre à des conditions qu'ils déterminent.",
+            page: "30"
+        },
+        {
+            question: "L'entrepreneur de spectacles a-t-il l'obligation de déclarer ses recettes à l'auteur ?",
+            options: { a: "Non, c'est une information confidentielle", b: "Seulement si un juge l'ordonne", c: "Oui, il doit fournir un état justifié de ses recettes", d: "Non, il paie un forfait unique" },
+            reponse: "c",
+            explication: "L'entrepreneur de spectacles est tenu de déclarer à l'auteur ou à ses représentants le programme exact des représentations... et de leur fournir un état justifié de ses recettes.",
+            page: "31"
+        },
+        {
+            question: "Le contrat de production audiovisuelle emporte-t-il automatiquement la cession des droits graphiques et théâtraux sur l'œuvre ?",
+            options: { a: "Oui, tous les droits sont cédés en bloc au producteur", b: "Cela dépend de la durée du film", c: "Non, la loi stipule que ce contrat n'emporte pas cession de ces droits spécifiques", d: "Oui, sauf si l'auteur s'y oppose par écrit" },
+            reponse: "c",
+            explication: "La même loi stipule que le contrat de production audiovisuelle n'emporte pas cession au producteur des droits graphiques et théâtraux sur l'œuvre.",
+            page: "32"
+        },
+        {
+            question: "Dans le cadre d'un contrat de production audiovisuelle, pour chaque mode d'exploitation (cinéma, TV, VOD...), la rémunération des auteurs est-elle due ?",
+            options: { a: "Non, la rémunération est un forfait unique", b: "Oui, la rémunération est due pour chaque mode d'exploitation", c: "Non, seuls les acteurs sont rémunérés", d: "Oui, mais seulement pour la première année d'exploitation" },
+            reponse: "b",
+            explication: "Il est à noter que la rémunération des auteurs est due pour chaque mode d'exploitation.",
+            page: "32"
+        },
+        {
+            question: "Laquelle de ces affirmations est une obligation principale de l'auteur dans un contrat de représentation ?",
+            options: { a: "Assister à toutes les représentations", b: "Garantir à l'entrepreneur l'exercice paisible et exclusif du droit cédé", c: "Participer à la promotion de la pièce", d: "Financer une partie de la production" },
+            reponse: "b",
+            explication: "Obligations de l'auteur : L'auteur... est tenu de garantir à l'entrepreneur de spectacles l'exercice paisible et sauf convention contraire exclusif du droit cédé.",
+            page: "31"
+        }
+    ]
+},
+        //Module 03
 
         
         // Vous pourrez ajouter 'M05', etc. ici
@@ -522,6 +811,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Initialisation au chargement de la page ---
     populateDropdown();
 });
+
 
 
 
