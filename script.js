@@ -293,6 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 
         //Module 02
+        
 'M02': {
     title: 'MEO2-M02 : Politiques, Marketing et Commercialisation de l\'innovation',
     questions: [
@@ -582,6 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ]
 },
         //Module 03
+        
 'M03': {
     title: 'MEO2-M03 : Connaissance des sociétés',
     questions: [
@@ -871,6 +873,297 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     ]
 },
+        //Module 04
+
+        'M04': {
+    title: 'MEO-M04 : Histoire du développement',
+    questions: [
+        {
+            section: "Chapitre 1 : Les origines du développement et du sous-développement",
+            question: "Dans quel pays la révolution industrielle a-t-elle débuté ?",
+            options: { a: "Aux Etats-Unis", b: "En Allemagne", c: "En France", d: "En Angleterre" },
+            reponse: "d",
+            explication: "Le développement se définit toujours en référence à la révolution industrielle en Angleterre. C'est le point de départ historique.",
+            page: "5"
+        },
+        {
+            question: "À quel siècle la révolution industrielle a-t-elle commencé ?",
+            options: { a: "XIXe siècle", b: "XVIIIe siècle", c: "XXe siècle", d: "XVIIe siècle" },
+            reponse: "b",
+            explication: "Au cours du XVIIIe siècle, tous les éléments sont réunis pour favoriser l'essor de l'industrie au cœur de la Grande-Bretagne.",
+            page: "5"
+        },
+        {
+            question: "Les facteurs endogènes (internes) de la révolution industrielle en Angleterre sont purement :",
+            options: { a: "Sociaux", b: "Économiques", c: "Culturels", d: "Ils sont un mélange de plusieurs facteurs" },
+            reponse: "d",
+            explication: "Les causes endogènes incluent la révolution agricole, les progrès techniques, et des changements sociaux comme l'exode rural. Ce n'est pas un facteur unique.",
+            page: "5-6"
+        },
+        {
+            question: "Parmi les causes exogènes (externes) de la révolution industrielle en Angleterre, laquelle est citée dans le cours ?",
+            options: { a: "Le développement du transport", b: "La métallurgie", c: "Le textile", d: "La domination commerciale et la traite négrière" },
+            reponse: "d",
+            explication: "Parmi les causes exogènes, le cours détaille l'importance de la traite négrière et du commerce international.",
+            page: "6"
+        },
+        {
+            question: "Dans le mode de production capitaliste, quel est le stade de la genèse (le premier stade) ?",
+            options: { a: "Le capitalisme commercial", b: "Le capitalisme industriel", c: "Le capitalisme financier", d: "L'impérialisme" },
+            reponse: "a",
+            explication: "Le cours précise que 'le stade de la genèse est celui du capitalisme commercial'.",
+            page: "5"
+        },
+        {
+            question: "Selon Karl Polanyi, qu'est-ce qui a permis à l'économie de marché d'apparaître ?",
+            options: { a: "Aux innovations technologiques", b: "À l'État", c: "Aux enclosures", d: "À la découverte de l'Amérique" },
+            reponse: "c",
+            explication: "Le système d'enclosure a ruiné la population rurale, la forçant à se rendre dans les centres urbains pour travailler, créant ainsi le marché du travail.",
+            page: "5"
+        },
+        {
+            question: "La transformation de l'agriculture en Angleterre, qui a précédé la révolution industrielle, a débuté avec :",
+            options: { a: "Le mouvement des gros propriétaires terriens (landlords)", b: "L'intervention de l'État", c: "L'action des collectivités", d: "L'introduction de machines agricoles" },
+            reponse: "a",
+            explication: "Les landlords, riches propriétaires, ont amélioré les techniques d'exploitation, marquant le début de la révolution agricole.",
+            page: "6"
+        },
+        {
+            question: "Selon la thèse d'Eric Williams, la traite des noirs a financé la Révolution Industrielle en Angleterre.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "Le cours cite Eric Williams qui affirme que la traite négrière a fourni 'l'un des principaux courants de cette accumulation du capital en Angleterre qui a financé la Révolution Industrielle'.",
+            page: "6"
+        },
+        {
+            question: "Qui sont les 'landlords' dans le contexte de la révolution agricole anglaise ?",
+            options: { a: "De riches propriétaires terriens", b: "Des bureaucrates du gouvernement", c: "Des industriels du textile", d: "Des chefs militaires" },
+            reponse: "a",
+            explication: "Les landlords sont définis comme de 'riches propriétaires qui détiennent désormais les terres agricoles'.",
+            page: "6"
+        },
+        {
+            question: "La révolution industrielle ne s'est PAS diffusée dans un des pays suivants au XIXe siècle :",
+            options: { a: "En Égypte", b: "En Allemagne", c: "Aux États-Unis", d: "En France" },
+            reponse: "a",
+            explication: "Le cours détaille la diffusion aux États-Unis, en France, en Allemagne, en Russie et au Japon, mais pas en Égypte à cette période.",
+            page: "8"
+        },
+        {
+            section: "Chapitre 2 : Théories du développement",
+            question: "Lorsque les économistes parlent d'économie duale dans les pays en développement, à quelle distinction font-ils référence ?",
+            options: { a: "Un secteur traditionnel et un secteur moderne", b: "Les gens riches et les gens pauvres", c: "La ville et le pays", d: "Les hommes et les femmes" },
+            reponse: "a",
+            explication: "Le dualisme oppose un secteur traditionnel (souvent de subsistance) à un secteur moderne (souvent tourné vers l'exportation et plus productif).",
+            page: "19-20"
+        },
+        {
+            question: "Quelle théorie explique le sous-développement par une mauvaise allocation des ressources, souvent liée à un marché trop petit ?",
+            options: { a: "Le néo-colonialisme", b: "L'hypothèse de sous-consommation", c: "La théorie de la dépendance", d: "L'hypothèse du cercle vicieux de la pauvreté" },
+            reponse: "d",
+            explication: "L'hypothèse du cercle vicieux de la pauvreté (formulée par Nurske) stipule qu'un pays est pauvre parce qu'il est pauvre, manquant de capitaux à cause de faibles revenus, ce qui est une forme de mauvaise allocation des ressources.",
+            page: "23"
+        },
+        {
+            question: "Les différentes théories (retard, domination, culturelle) montrent que le développement est appréhendé de différentes manières.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "Le cours présente explicitement plusieurs théories distinctes (la théorie du retard, de la domination, du retard culturel), ce qui valide l'affirmation.",
+            page: "16"
+        },
+        {
+            question: "Selon la théorie de Rostow, le passage à la société développée se fait nécessairement par combien d'étapes historiques ?",
+            options: { a: "2", b: "4", c: "5", d: "6" },
+            reponse: "c",
+            explication: "Walt Whitman Rostow propose cinq étapes historiques : la société traditionnelle, les conditions préalables au décollage, le décollage, la marche vers la maturité, et la consommation de masse.",
+            page: "16"
+        },
+        {
+            question: "Parmi les propositions suivantes, laquelle n'est PAS une caractéristique de la société traditionnelle selon Rostow ?",
+            options: { a: "Le changement de mode de vie d'une génération à l'autre", b: "La recherche de l'innovation", c: "L'individualisme", d: "Les valeurs sont fondées sur le fatalisme" },
+            reponse: "d",
+            explication: "Dans la société traditionnelle, le mode de vie ne change pas, les connaissances sont routinières, l'individualisme est faible et les valeurs sont fondées sur le fatalisme. Les autres options décrivent son opposé.",
+            page: "16"
+        },
+        {
+            question: "Selon Rostow, c'est à la phase de décollage que la société brise les freins liés à la tradition.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "Pendant le décollage, la société brise littéralement tous les freins connexes à la tradition qui entravaient sa croissance.",
+            page: "17"
+        },
+        {
+            question: "Pour Penouil, quel est l'élément principal de l'exploitation capitaliste ?",
+            options: { a: "La valeur", b: "La plus-value", c: "La valeur-travail", d: "L'impérialisme" },
+            reponse: "b",
+            explication: "Bien que le cours n'explicite pas la pensée de Penouil, dans l'analyse marxiste classique, l'exploitation capitaliste repose sur l'extraction de la plus-value (la différence entre la valeur du travail et le salaire versé).",
+            page: "N/A"
+        },
+        {
+            question: "Quel est le point central de l'analyse du dualisme sociologique de J.H. Boeke ?",
+            options: { a: "La distinction entre l'activité économique des sociétés occidentales et coloniales", b: "Le lien entre commerce et productivité", c: "La différence entre secteur moderne et secteur de subsistance", d: "Le lien entre secteur agricole et industriel" },
+            reponse: "a",
+            explication: "Le point central de la thèse de Boeke est une distinction fondamentale entre les objectifs de l'activité économique des sociétés occidentales (basée sur les besoins économiques) et coloniales (basée sur les besoins sociaux).",
+            page: "20"
+        },
+        {
+            question: "Le 'dualisme dynamique', qui insiste sur le lien entre secteur agricole et industriel, a été défendu par Rostow.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "b",
+            explication: "Le dualisme dynamique (modèles bissectoriels) est principalement associé aux travaux de W. Arthur Lewis, ainsi que Fei et Ranis, pas à Rostow.",
+            page: "21"
+        },
+        {
+            question: "Dans la nouvelle vision du développement (selon Dudley Seers), quelles questions faut-il se poser ?",
+            options: { a: "L'expérience des années 1950 et 1980", b: "Les taux de croissance record", c: "La bonne répartition des fruits de la croissance", d: "Comment ont évolué la pauvreté, le chômage et les inégalités" },
+            reponse: "d",
+            explication: "Selon le Pr. Dudley Seers, il faut se poser les questions : 'Comment a évolué la pauvreté dans ce pays ? Comment a évolué son niveau de chômage ? Comment ont évolué les inégalités dans ce pays ?'.",
+            page: "22"
+        },
+        {
+            section: "Chapitre 3 : Problèmes de développement et orientations politiques",
+            question: "Comment les orientations politiques et stratégies de développement ont-elles évolué ?",
+            options: { a: "En parallèle des problèmes se posant dans les pays en développement", b: "En fonction d'un programme unique pour la croissance", c: "Selon un accord mondial de rééchelonnement de la dette", d: "Selon un programme unique de stabilisation" },
+            reponse: "a",
+            explication: "Le cours indique que les stratégies ont évolué 'en parallèle avec les problèmes qui se posent dans les pays en développement et les théories économiques sous-jacentes'.",
+            page: "23"
+        },
+        {
+            question: "Pourquoi l'État est-il qualifié d' 'État développeur' dans les années 1950-1970 ?",
+            options: { a: "En raison du rôle central qu'il devait jouer dans l'économie", b: "Grâce à l'accumulation de revenu pour l'élite", c: "Grâce à l'accroissement des capacités de financement extérieur", d: "Grâce à la formulation de stratégies non appliquées" },
+            reponse: "a",
+            explication: "Dans cette perspective, l'État se devait de jouer un rôle central pour pallier les défaillances du marché et piloter l'accumulation. D'où le qualificatif d'État développeur.",
+            page: "23"
+        },
+        {
+            question: "Parmi les éléments suivants, lequel n'est PAS un problème typique auquel font face la plupart des pays en développement ?",
+            options: { a: "Un niveau d'endettement élevé", b: "Une pénurie de nourriture", c: "Une pénurie de main-d'œuvre", d: "Une croissance rapide de la population" },
+            reponse: "c",
+            explication: "Les pays en développement sont souvent caractérisés par une main-d'œuvre abondante (parfois en situation de sous-emploi), contrairement à une pénurie.",
+            page: "N/A"
+        },
+        {
+            question: "Quelle est la politique la plus efficace pour accroître la production agricole selon le cours ?",
+            options: { a: "La réforme des terres (démembrement des grosses propriétés)", b: "La mécanisation à outrance", c: "La substitution aux importations", d: "La constitution d'équipes de marketing spécialisées" },
+            reponse: "a",
+            explication: "Bien que plusieurs stratégies soient discutées, la réforme agraire visant à démembrer les latifundia (grandes propriétés) est une politique structurelle souvent citée pour améliorer la productivité et l'équité.",
+            page: "26"
+        },
+        {
+            question: "Que signifie le sigle 'ISI' dans le contexte des stratégies de développement ?",
+            options: { a: "Indice par Surinvestissement International", b: "Importation Sur l'Industrie", c: "Industrialisation par Substitution des Importations", d: "Intérêt sur les Intrants" },
+            reponse: "c",
+            explication: "Le cours définit explicitement le processus de l'ISI comme 'Industrialisation par substitution des importations'.",
+            page: "24"
+        },
+        {
+            question: "Où la stratégie d'ISI a-t-elle principalement commencé ?",
+            options: { a: "En Asie", b: "En Égypte", c: "Au Maroc", d: "En Amérique Latine" },
+            reponse: "d",
+            explication: "Le texte indique : 'Commencée en Amérique latine, l'ISI s'est propagée vers d'autres régions'.",
+            page: "25"
+        },
+        {
+            question: "L'ISE (Industrialisation par Substitution aux Exportations) consiste à remplacer l'exportation de produits de base par des produits manufacturiers.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "L'industrialisation par substitution des exportations (ISE) consiste à substituer l'exportation de produits manufacturiers à l'exportation de produits de base.",
+            page: "25"
+        },
+        {
+            question: "En général, quelle part la production agricole représente-t-elle dans le PIB des pays en développement (PED) ?",
+            options: { a: "30-40%", b: "20-30%", c: "15-20%", d: "5-15%" },
+            reponse: "c",
+            explication: "La part de la production agricole représente environ 15 à 20 % du PIB dans les PED.",
+            page: "26"
+        },
+        {
+            question: "Comment appelle-t-on une politique qui préconise l'intervention des pouvoirs publics dans la vie économique d'un pays ?",
+            options: { a: "Croissance déséquilibrée", b: "Promotion des exportations", c: "Promotion de l'industrie", d: "Interventionnisme" },
+            reponse: "d",
+            explication: "L'interventionnisme est la doctrine qui prône l'intervention de l'État dans l'économie, ce qui correspond à la stratégie de l'État développeur.",
+            page: "23"
+        },
+        {
+            question: "L'aide internationale est reconnue comme une nécessité économique principalement par :",
+            options: { a: "Les accords de Bretton Woods", b: "Les théories économistes classiques", c: "Les modèles industriels", d: "Les pays en développement eux-mêmes" },
+            reponse: "a",
+            explication: "Le cours précise que 'l'aide internationale est reconnue comme une nécessité économique par les accords de Bretton Woods'.",
+            page: "28"
+        },
+        {
+            section: "Chapitre 4 : Changement Social",
+            question: "Selon Guy Rocher, quelle est la définition du changement social ?",
+            options: { a: "Une augmentation durable de la quantité de biens et services", b: "Toute transformation observable dans le temps qui affecte la structure ou le fonctionnement d'une collectivité", c: "L'ensemble des transformations techniques uniquement", d: "Une simple modification des habitudes individuelles" },
+            reponse: "b",
+            explication: "Guy Rocher définit le changement social comme 'toute transformation observable dans le temps, qui affecte, d'une manière qui ne soit pas que provisoire ou éphémère, la structure ou le fonctionnement de l'organisation sociale d'une collectivité donnée'.",
+            page: "33"
+        },
+        {
+            question: "Qu'est-ce que le changement social ne doit PAS faire pour être qualifié comme tel ?",
+            options: { a: "Modifier l'organisation sociale", b: "Transformer une seule structure", c: "Être identifié dans le temps", d: "Affecter la collectivité de manière durable" },
+            reponse: "b",
+            explication: "Le changement social affecte 'la structure ou le fonctionnement de l'organisation sociale', il n'est pas limité à une seule et unique structure isolée mais a un impact plus large et durable.",
+            page: "33"
+        },
+        {
+            question: "Le développement est une forme historique du changement social.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "Le développement est défini comme une forme historique du changement social, impliquant une transformation observable et durable de la société.",
+            page: "34"
+        },
+        {
+            question: "Combien de conceptions de la notion d'évolution Shalins et Service proposent-ils ?",
+            options: { a: "3", b: "5", c: "6", d: "2" },
+            reponse: "d",
+            explication: "Shalins et Service proposent deux conceptions de l'évolution : une conception linéaire (à rejeter) et une conception multilinéaire.",
+            page: "34"
+        },
+        {
+            question: "Pour Émile Durkheim, quel est l'élément déterminant du changement social menant à la division du travail ?",
+            options: { a: "L'agriculture", b: "La culture", c: "La démographie", d: "La science" },
+            reponse: "c",
+            explication: "Pour Emile Durkheim, c'est l'augmentation de la densité démographique qui est à la base de la division du travail et donc du changement social.",
+            page: "35"
+        },
+        {
+            question: "La doctrine calviniste, analysée par Max Weber, est basée sur la notion de :",
+            options: { a: "Prédestination", b: "Développement", c: "Changement social", d: "Sous-développement" },
+            reponse: "a",
+            explication: "La doctrine calviniste est basée sur la notion de la 'prédestination' : le salut de l'homme est exclusivement un don de Dieu.",
+            page: "35"
+        },
+        {
+            question: "Le changement social est un phénomène historique, collectif et structurel.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "Le changement social est défini comme un phénomène à la fois historique, collectif et structurel affectant l'organisation sociale.",
+            page: "34"
+        },
+        {
+            question: "Le changement climatique est un phénomène :",
+            options: { a: "Facile à appréhender", b: "Pas du tout complexe", c: "Complexe", d: "Localisé à un seul pays" },
+            reponse: "c",
+            explication: "Le cours souligne que le changement social est un phénomène complexe et difficile à cerner, le changement climatique en est un exemple majeur par ses multiples causes et conséquences.",
+            page: "33"
+        },
+        {
+            question: "Le changement social est toujours dynamique.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "Le changement social est défini comme un processus dynamique et évolutif, impliquant un mouvement et une transformation.",
+            page: "33"
+        },
+        {
+            question: "Il n'existe pas de théorie générale du changement social.",
+            options: { a: "Vrai", b: "Faux" },
+            reponse: "a",
+            explication: "La sociologie moderne rejette l'idée d'une cause dominante et admet une pluralité de types de changement, ce qui conduit à l'inexistence d'une théorie générale unique.",
+            page: "33"
+        }
+    ]
+},
         
         // Vous pourrez ajouter 'M05', etc. ici
      
@@ -1099,6 +1392,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Initialisation au chargement de la page ---
     populateDropdown();
 });
+
 
 
 
